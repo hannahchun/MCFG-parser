@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 82.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcfg_parser"
+version = "2020.0.0"
+authors = [
+    {name = "Hannah Chun", email = "hannahchun2000@gmail.com"}
+]
+license = {text = "MIT"}
+dependencies = [
+    "pyparsing >= 3.3.2",
+    "pytest >= 9.0.3"
+]
+requires-python = ">=3.10"
+
